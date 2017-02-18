@@ -1,3 +1,6 @@
+/**
+ * Compound animation that reproduces animations in order.
+ */
 class AnimationChain implements Animation {
   class AnimationNode {
     Animation anim;

@@ -1,4 +1,7 @@
 import java.util.Vector;
+/**
+ * Reproduces two or more animations at the same time.
+ */
 class ParallelAnimation implements Animation {
   Vector<Animation> animations = new Vector<Animation>();
   
